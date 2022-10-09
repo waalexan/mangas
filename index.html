@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Syshard mangas</title>
+    <link rel="stylesheet" href="assets/css/wave.css" />
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <!--Content before waves-->
+      <div class="inner-header">
+      <div class="top scrooll1">
+        <div id="logo">
+          <h3>Manga franco</h3>
+        </div>
+        <div id="menu">
+          <ul>
+            <li>Em lancamentos</li>
+            <li>Generos</li>
+            <li>Desenhos</li>
+            <li>Videos</li>   
+            <li id="busca" class="topbtn"><i class="bx bx-search"></i></li>
+            <li id="login" class="topbtn"><i class="bx bx-user"></i></li>         
+          </ul>
+        </div>
+      </div>
+      <div class="formsearch">
+        <form action="" method="get">
+          <input type="text" placeholder="Pesquisar por...">
+          <button><i class='bx bx-search bx-tada-hover'></i></button>
+        </form>
+      </div>
+      <div class="formuser">
+        <h3>Social Kits web</h3>
+      </div>
+      <h1 div id="slogan"></h1>
+      <p>Para publicares tambem os seus projectos <strong>Crie ja a sua conta</strong></p><br>
+      <i class='bx bxl-facebook bx-tada-hover'></i>
+      <i class='bx bxl-github bx-tada-hover'></i>
+      <i class='bx bxl-twitter bx-tada-hover'></i>
+      <i class='bx bxl-instagram bx-tada-hover'></i>
+      </div>
+
+      <!--Waves Container-->
+      <div>
+        <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(255,255,255,0.7"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255,255,255,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(255,255,255,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+      <!--Waves end-->
+    </div>
+    <!--Header ends-->
+
+    <!--Content starts-->
+    <div class="content"><br><br>
+      <div class="nav-site">
+        <button>
+          <i class='bx bxs-file-image bx-tada-hover'></i>
+          Galeria
+        </button>
+        <button>
+          <i class='bx bxs-video bx-tada-hover'></i>
+          Videos
+        </button>
+        <button>
+          <i class='bx bxs-music bx-tada-hover'></i>
+          Musicas
+        </button>
+        <button>
+          <i class='bx bxs-book bx-tada-hover'></i>
+          Mangas
+        </button>
+      </div>
+      <iframe src="pages/galeria.html" id="page"></iframe>
+    </div>
+    <!--Content ends-->
+  </body>
+<script src="assets/js/descricao.js"></script>
+<script src="assets/js/app.js"></script>
+</html>
